@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build-css": "postcss src/style.css -o public/style.css",
+    "production": "NODE_ENV=production postcss src/style.css -o public/style.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.9",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.16"
+  }
+}
